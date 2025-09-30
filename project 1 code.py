@@ -21,11 +21,14 @@ turtle.window_height()
 
 #turtle.exitonclick()
 
-
-num_sides = 2
+num_sides = 120
+# how big the sides
 num_half_side = num_sides / 2
+# half of the sides length to do the pythagorean theorem
 num_triangle_sides = (num_half_side **2 + num_half_side **2 )
+# to get number
 number = (num_triangle_sides**0.5)
+# formula to get the number
 print(number)
 
 import turtle
